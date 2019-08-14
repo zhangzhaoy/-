@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"万丈豪情","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"usingComponents":{"toubu":"/components/toubu"}}},"pages/goods/goods.html":{"window":{"usingComponents":{"toubu":"/components/toubu"}}},"pages/me/me.html":{"window":{"usingComponents":{"toubu":"/components/toubu"}}},"pages/news/news.html":{"window":{"usingComponents":{"toubu":"/components/toubu","xinwen":"/components/xinwen"}}},"pages/case/case.html":{"window":{"usingComponents":{"toubu":"/components/toubu"}}},"pages/goods/goods-details/goods-details.html":{"window":{"usingComponents":{"toubu":"/components/toubu"}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"万丈豪情股份有限公司","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"#333333","selectedColor":"#f06c7a","backgroundColor":"#ffffff","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","iconPath":"static/tabBar/home.png","selectedIconPath":"static/tabBar/home-on.png","text":"首页"},{"pagePath":"pages/goods/goods.html","iconPath":"static/tabBar/caipin.png","selectedIconPath":"static/tabBar/caipin-on.png","text":"菜品"},{"pagePath":"pages/news/news.html","iconPath":"static/tabBar/news.png","selectedIconPath":"static/tabBar/news-on.png","text":"新闻中心"},{"pagePath":"pages/case/case.html","iconPath":"static/tabBar/case.png","selectedIconPath":"static/tabBar/case-on.png","text":"餐饮环境"},{"pagePath":"pages/me/me.html","iconPath":"static/tabBar/user.png","selectedIconPath":"static/tabBar/user-on.png","text":"我的"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/goods/goods","pages/me/me","pages/news/news","pages/case/case","pages/goods/goods-details/goods-details"],"subPackages":[],"splashscreen":{"alwaysShowBeforeRender":false,"autoclose":true},"compilerVersion":"1.9.4","usingComponents":{}}
+
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+            };
+
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

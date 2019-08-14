@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"environment {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;margin: ",[0,50]," 0;}\n.",[1],"environment-li {}\n",],undefined,{path:"./pages/case/case.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/case/case.wxml') } }));

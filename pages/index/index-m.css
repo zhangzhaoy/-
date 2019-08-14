@@ -1,0 +1,6 @@
+.feature {display: flex; justify-content: space-around;margin: 20upx 0;}
+.feature text{display: block; text-align: center;}
+.feature image {width: 200upx;}
+.goods {display: flex; flex-wrap: wrap; justify-content: space-around;margin: 20upx 0;}
+.goods image {width: 300upx;height: 200upx;}
+button {margin: 30upx 0;}

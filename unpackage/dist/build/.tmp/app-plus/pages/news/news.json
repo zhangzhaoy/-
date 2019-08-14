@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "toubu": "/components/toubu",
+    "xinwen": "/components/xinwen"
+  }
+}

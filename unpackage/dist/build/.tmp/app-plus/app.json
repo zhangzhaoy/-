@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/goods/goods",
+    "pages/me/me",
+    "pages/news/news",
+    "pages/case/case",
+    "pages/goods/goods-details/goods-details"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "万丈豪情股份有限公司",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#f06c7a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabBar/home.png",
+        "selectedIconPath": "static/tabBar/home-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/goods/goods",
+        "iconPath": "static/tabBar/caipin.png",
+        "selectedIconPath": "static/tabBar/caipin-on.png",
+        "text": "菜品"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "static/tabBar/news.png",
+        "selectedIconPath": "static/tabBar/news-on.png",
+        "text": "新闻中心"
+      },
+      {
+        "pagePath": "pages/case/case",
+        "iconPath": "static/tabBar/case.png",
+        "selectedIconPath": "static/tabBar/case-on.png",
+        "text": "餐饮环境"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/tabBar/user.png",
+        "selectedIconPath": "static/tabBar/user-on.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": false,
+    "autoclose": true
+  },
+  "appname": "万丈豪情",
+  "compilerVersion": "1.9.4",
+  "usingComponents": {}
+}

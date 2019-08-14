@@ -1,0 +1,34 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+view.header {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-justify-content:space-around; -ms-flex-pack:distribute; justify-content:space-around;margin: 6rpx 0;}
+.logo-img {width: 350rpx;height: auto;}
+.tel {font-size: 14px;float: right;font-weight: 600;}
+.tel text {color: #d60c18;}
+swiper {width: 100%;border-bottom: 1px solid #EBCB0C;}
+swiper image,swiper {width: 750rpx;height: 234rpx;}
+._h3{color: #E7272D; text-align: center;margin-top: 40rpx;}
+._h4{color: #000; text-align: center;font-size: 16px; font-weight: 400;margin-bottom: 12rpx;}
+.footer text {font-size: 15px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;}
+.news-h3{color: #000; text-align: center;font-style: 16px; font-weight: 400;margin-bottom: 12rpx;}
+view.news-p {font-size: 15px;}
+.news {width: 96%; margin: auto;}
+.news-li {border:1px dotted #ccc; padding: 10rpx;margin: 20rpx 0;}
+.button {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;}
+.put {color: red;}
+.details {min-height: 800rpx;}
+.details image {margin:30rpx auto;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;}
+
